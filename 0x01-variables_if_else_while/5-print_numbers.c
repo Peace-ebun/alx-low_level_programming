@@ -7,18 +7,12 @@
  */
 int main(void)
 {
-	char c = 'a';
-	char C = 'A';
+	int n = 0;
 
-	while (c <= 'z')
+	while (n < 10)
 	{
-		putchar(c);
-		c++;
-	}
-	while (C <= 'Z')
-	{
-		putchar(C);
-		C++;
+		printf("%d", n);
+		n++;
 	}
 	putchar('\n');
 
